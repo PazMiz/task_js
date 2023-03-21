@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<body>
+    <input id="chk">
+    <button onclick="check()">test </button>
+    <script>
+        function check() {
+            // console.log(chk.value.length );
+            if (chk.value == ""){ //if user name is empty
+                console.log("please type your name");
+            }else{
+                if( chk.value.length > 0) //type name not charm
+                {
+                    if(chk.value.length < 2){//user name length is less then 1
+                        console.log("the user name is valid");
+                    }else{
+                    }
+                }{
+                    if( chk.value > 8 )
+                    console.log("only 8 letters"); 
+
+                    else(chk.value < 8)
+                    console.log("user name is to short");
+
+                }
+                if( chk.value > 8) 
+                console.log("good job you can go on");
+                else(chk.value < 10)
+        
+                if(chk.value <11)
+                console.log("its to much letters maximum 10");
+                else(chk.value <11)
+
+
+
+
+            }
+        }
+    </script>
+</body>
+
+
+</html>
